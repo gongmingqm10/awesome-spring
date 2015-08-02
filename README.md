@@ -22,5 +22,6 @@ RESTful API and Spring MVC course
 5. 讲解：MVC.分层的概念，好处。Spring MVC如何做到的呢。
 6. 演练：在Web页面显示所有店铺，增删查改
 7. 实战：所有店铺下的增删查改
-8. 扩展，MVC的测试怎么写； Web还有哪些类似于MVC的模式，
-9. 作业：增加单元测试 
+8. Showcase
+9. 扩展，MVC的测试怎么写； Web还有哪些类似于MVC的模式，
+10. 作业：增加单元测试 

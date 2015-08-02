@@ -1,5 +1,6 @@
-# awesome-spring
-RESTful API and Spring MVC course
+# RESTful API & Spring MVC
+ThoughtWorks武汉办公室郑大晔校@2015，课程《RESTful API & Spring MVC》
+
 ##课程目标
 1. 了解RESTful API 的概念及其优点
 2. 了解RESTful API 使用方法

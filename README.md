@@ -5,6 +5,7 @@ RESTful API and Spring MVC course
 2. 了解RESTful API 使用方法
 3. 理解Spring MVC概念及原理
 4. 学会搭建一个Spring框架的网站（最好结合依赖注入）
+
 ##课程安排
 课程已实践结合讲解的形式进行。需要学生课下完成作业，需要学生进行课前预习。课堂使用各种例子帮助学生理解及实践。课后需要预留课程相关的家庭作业。
 
@@ -24,4 +25,4 @@ RESTful API and Spring MVC course
 7. 实战：所有店铺下的增删查改
 8. Showcase
 9. 扩展，MVC的测试怎么写； Web还有哪些类似于MVC的模式，
-10. 作业：增加单元测试 
+10. 作业：增加单元测试

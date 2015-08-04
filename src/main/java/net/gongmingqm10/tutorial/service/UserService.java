@@ -1,10 +1,21 @@
 package net.gongmingqm10.tutorial.service;
 
+import net.gongmingqm10.tutorial.mappers.UserMapper;
 import net.gongmingqm10.tutorial.model.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-public interface UserService {
+@Service
+@Transactional
+public class UserService {
 
-    List<User> index();
+    @Autowired
+    protected UserMapper userMapper;
+
+    public List<User> getAllUsers() {
+        return userMapper.getAllUsers();
+    }
 }

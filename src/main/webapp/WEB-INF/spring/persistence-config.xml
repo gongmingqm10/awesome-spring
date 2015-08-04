@@ -24,5 +24,21 @@
         <property name="password" value="${jdbc.password}"/>
     </bean>
 
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource" />
+        <property name="configLocation" value="classpath:mybatis.config.xml"/>
+    </bean>
+
+    <!-- REGISTERING MAPPERS TO ALLOW FOR INJECTION -->
+
+    <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="net.gongmingqm10.tutorial.mappers.UserMapper" />
+        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
+
+    <bean id="bookMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="net.gongmingqm10.tutorial.mappers.BookMapper" />
+        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
 
 </beans>

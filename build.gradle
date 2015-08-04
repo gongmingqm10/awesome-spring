@@ -30,9 +30,11 @@ dependencies {
 
 
     compile 'org.mybatis:mybatis:3.3.0'
+    compile 'org.mybatis:mybatis-spring:1.2.2'
     compile 'aopalliance:aopalliance:1.0'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.6.0'
     compile 'org.apache.commons:commons-lang3:3.4'
+
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-all:1.9.5'

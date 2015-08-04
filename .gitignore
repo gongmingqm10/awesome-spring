@@ -16,3 +16,6 @@ out/
 build/
 .gradle/
 .idea/
+
+*.ipr
+*.iws

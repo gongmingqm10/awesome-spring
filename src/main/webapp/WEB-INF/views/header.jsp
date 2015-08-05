@@ -28,7 +28,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="<c:url value='/'/>"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> 首页</a></li>
+            <li><a href="<c:url value='/'/>"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> 首页</a></li>
             <li><a href="<c:url value='/users'/>"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> 用户</a></li>
             <li><a href="<c:url value='/books'/>"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 图书</a></li>
           </ul>

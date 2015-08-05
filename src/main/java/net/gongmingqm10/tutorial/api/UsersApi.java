@@ -17,8 +17,8 @@ public class UsersApi {
     @Autowired
     protected UserService userService;
 
-    @RequestMapping(method = RequestMethod.GET)
-    @ResponseBody
+    @RequestMapping(method = RequestMethod.GET, produces="application/json")
+    public @ResponseBody
     List<User> index() {
         return userService.getAllUsers();
     }

@@ -8,10 +8,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <!--
-        Scans within the base package of the application for @Components to
-        configure as beans
-    -->
+    <!-- Scans within the base package of the application for @Components to configure as beans -->
     <context:component-scan base-package="net.gongmingqm10.tutorial" />
 
     <!-- Configures support for @Controllers -->
@@ -19,10 +16,6 @@
 
     <mvc:view-controller path="/" view-name="home" />
 
-    <!--<mvc:resources mapping="/css/**" location="/stylesheets/css/" />-->
-    <!--<mvc:resources mapping="/js/**" location="/stylesheets/js/"/>-->
-    <!--<mvc:resources mapping="/images/**" location="/stylesheets/images/" />-->
-    <!--<mvc:resources mapping="/fonts/**" location="/stylesheets/fonts/" />-->
     <mvc:resources mapping="/resources/**" location="/resources/" />
 
     <!-- Resolves view names to protected .jsp resources within the /WEB-INF/views directory -->

@@ -14,7 +14,7 @@ ThoughtWorks武汉办公室郑大晔校@2015，课程《RESTful API & Spring MVC
 
 ###课前准备
 
-1. 环境Setup：Mysql 5.5.3+, [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en-US)
+1. 环境Setup：Mysql 5.5.3+, [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en-US), Intellij
 2. 预习：了解RESTful API以及Spring MVC基础概念，参考 [理解Restful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html), [REST API tutorial](http://www.restapitutorial.com/lessons/whatisrest.html), [Spring MVC]( http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html)
 
 3. 运行你的工程:

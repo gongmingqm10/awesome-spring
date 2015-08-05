@@ -37,15 +37,6 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
-    <filter>
-        <filter-name>etagFilter</filter-name>
-        <filter-class>org.springframework.web.filter.ShallowEtagHeaderFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>etagFilter</filter-name>
-        <servlet-name>Spring MVC Dispatcher Servlet</servlet-name>
-    </filter-mapping>
-
     <context-param>
         <param-name>log4jConfigLocation</param-name>
         <param-value>classpath:log4j.properties</param-value>

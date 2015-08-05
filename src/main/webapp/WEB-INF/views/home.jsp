@@ -7,10 +7,10 @@
 
 <div class="container">
     <div class="page_header">
-        <h1>Hello Spring MVC</h1>
+        <h1>欢迎来到阅读世界</h1>
     </div>
     <p class="leading">
-        Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with
+        如果你看到这里，说明你的工程已经创建成功。开启你的阅读之旅吧！
     </p>
 </div>
 

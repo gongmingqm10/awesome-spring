@@ -5,22 +5,25 @@ ThoughtWorks武汉办公室郑大晔校@2015，课程《RESTful API & Spring MVC
 1. 了解RESTful API 的概念及其优点
 2. 了解RESTful API 使用方法
 3. 理解Spring MVC概念及原理
-4. 学会搭建一个Spring框架的网站（最好结合依赖注入）
+4. 学会搭建一个Spring框架的网站
 
 ##课程安排
 课程已实践结合讲解的形式进行。需要学生课下完成作业，需要学生进行课前预习。课堂使用各种例子帮助学生理解及实践。课后需要预留课程相关的家庭作业。
 
-实例场景：网上商城，主要数据库关系为：店铺，商品。主要功能为，店铺以及商品的增删查改。
+实例场景：漂流阅读，主要数据库关系为：用户，图书。主要功能为，用户以及图书的增删查改。
 
-###课前预习
-1. 环境搭建：Mysql 5.5.3+,
-2. 了解RESTful API以及Spring MVC基础概念
-3. Clone相关工程，`./gradlew build`, `./gradlew setupDB`, `./gradlew jettyRun`
+###课前准备
 
-完成的标志：
+1. 环境Setup：Mysql 5.5.3+, [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en-US)
+2. 预习：了解RESTful API以及Spring MVC基础概念，参考 [理解Restful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html), [REST API tutorial](http://www.restapitutorial.com/lessons/whatisrest.html), [Spring MVC]( http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html)
 
-1. `http://localhost:8888/awesome-spring/api/users` 可以查询用户JSON列表
-2. `http://localhost:8888/awesome-spring`, 可以看到 `Hello Spring MVC`
+3. 运行你的工程:
+
+Clone工程：`git clone https://github.com/gongmingqm10/awesome-spring/`
+
+进入到 `awesome-spring`目录，运行命令 `./gradlew build`, `./gradlew setupDB`, `./gradlew jettyRun`。
+
+访问 `http://localhost:8888/awesome-spring`, 可以看到 `欢迎来到阅读世界`。说明你的环境setup完成！
 
 ###课堂讲解
 1. 讲解：RESTful 设计理念，如何设计API。状态，资源 (20min)

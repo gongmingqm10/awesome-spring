@@ -9,3 +9,7 @@ body > .footer {
     height: 60px;
     background-color: #f5f5f5;
 }
+
+body > .footer > .container {
+    margin-top: 20px;
+}

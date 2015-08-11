@@ -38,3 +38,10 @@ Clone工程：`git clone https://github.com/gongmingqm10/awesome-spring/`
 9. Spring MVC 测试应该怎么写, 前端MVC + RESTful API；(10min)
 
 10. 作业: 完成REST API： users/:id/books, users/:id/books/:id, users/:id/books [POST]。完成Web中，删除某个用户图书，更新用户图书信息
+
+## How to Debug in Intellij
+
+1. Run your project in command line with `./gradlew jettyRunDebug`
+2. Open your project with Intellij, open "Run -> Edit configurations", click "+" on the top, Select "Remote" from the list. Click "OK" finally.
+3. Debug your project with the debugger you just added. Normally it's called "Unnamed".
+4. Visit the URL and add breakpoints in Intellij project, you'll find the debug mode works.

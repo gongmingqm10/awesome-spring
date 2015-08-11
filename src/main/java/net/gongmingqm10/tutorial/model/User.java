@@ -14,47 +14,53 @@ public class User implements Serializable{
         return id;
     }
 
-    public void setId(int id) {
+    public User setId(int id) {
         this.id = id;
+        return this;
     }
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) {
+    public User setUsername(String username) {
         this.username = username;
+        return this;
     }
 
     public String getCity() {
         return city;
     }
 
-    public void setCity(String city) {
+    public User setCity(String city) {
         this.city = city;
+        return this;
     }
 
     public String getAvatar() {
         return avatar;
     }
 
-    public void setAvatar(String avatar) {
+    public User setAvatar(String avatar) {
         this.avatar = avatar;
+        return this;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    public User setEmail(String email) {
         this.email = email;
+        return this;
     }
 
     public String getTelephone() {
         return telephone;
     }
 
-    public void setTelephone(String telephone) {
+    public User setTelephone(String telephone) {
         this.telephone = telephone;
+        return this;
     }
 }

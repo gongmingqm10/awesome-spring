@@ -31,7 +31,7 @@ DROP TABLE IF EXISTS `books`;
 CREATE TABLE `books` (
   `id` int(11) NOT NULL,
   `user_id` int(11) DEFAULT NULL,
-  `title` varchar(45) NOT NULL,
+  `title` varchar(255) NOT NULL,
   `summary` longtext,
   `image` mediumtext,
   `author` varchar(45) DEFAULT NULL,
@@ -61,8 +61,8 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(45) NOT NULL,
   `city` varchar(45) DEFAULT NULL,
-  `avatar` varchar(45) DEFAULT NULL,
-  `email` varchar(45) DEFAULT NULL,
+  `avatar` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
   `telephone` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

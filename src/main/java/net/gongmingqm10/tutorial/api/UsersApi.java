@@ -55,16 +55,15 @@ public class UsersApi {
         }
     }
 
-    @RequestMapping(method = RequestMethod.PUT, produces = "application/json")
+    @RequestMapping(value="/{id}", method = RequestMethod.PUT, produces = "application/json")
     public
     @ResponseBody
-    ResponseEntity update(HttpServletRequest request) {
+    ResponseEntity update(@PathVariable("id") int userId, HttpServletRequest request) {
         String username = request.getParameter("username");
         String city = request.getParameter("city");
         String email = request.getParameter("email");
         String telephone = request.getParameter("telephone");
         String avatar = request.getParameter("avatar");
-        int userId = Integer.parseInt(request.getParameter("id"));
 
         if (isEmpty(username)) {
             return new ResponseEntity<APIMessage>(new APIMessage("Username should not be null"),

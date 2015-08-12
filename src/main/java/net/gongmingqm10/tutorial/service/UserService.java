@@ -22,4 +22,12 @@ public class UserService {
     public void create(User user) {
         userMapper.insert(user);
     }
+
+    public void delete(int userId) {
+        userMapper.delete(userId);
+    }
+
+    public User getUserById(int userId) {
+        return userMapper.getUserById(userId);
+    }
 }

@@ -1,7 +1,7 @@
 package net.gongmingqm10.tutorial.controller;
 
-import net.gongmingqm10.tutorial.mappers.UserMapper;
 import net.gongmingqm10.tutorial.model.User;
+import net.gongmingqm10.tutorial.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    protected UserMapper userMapper;
+    protected UserService userMapper;
 
     @RequestMapping(value = "")
     public ModelAndView index() {
